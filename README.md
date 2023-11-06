@@ -42,7 +42,7 @@ Other well performing models include Decision Tree, K-NN Regression and XGBoost 
 ## Feature Selection
 After running the models and choosing the best performing ones (random forest, adaboost and bagging regression), we conducted a feature importance analysis to decide which factors were most critical to consider when predicting HDB resale prices. Using feature_importances_, we plotted the graph of the feature importance scores. 
 
-From our results, year gini was the most important factor in predicting HDB prices followed by area sqm, flat type, town (location), lease remaining, storey, and lastly flat model. With inflation and rising prices due to economic factors, it is no surprise that year gini is the most significant factor. Furthermore, with flat area, type and town being the other significant factors, this indeed corroborates with the common valuation factors that are widely employed to determine a property’s worth.   
+From our results, year_gini was the most important factor in predicting HDB prices followed by area_sqm, flat_type, town (location), lease_remaining, storey, and lastly flat_model. With inflation and rising prices due to economic factors, it is no surprise that year_gini is the most significant factor. Furthermore, with flat_area, type and town being the other significant factors, this indeed corroborates with the common valuation factors that are widely employed to determine a property’s worth.   
 
 
 
